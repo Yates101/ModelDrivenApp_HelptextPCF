@@ -1,27 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.23105.230" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.23111.228" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
-    <UniqueName>HelpTextPCF</UniqueName>
+    <UniqueName>CR030Components</UniqueName>
     <LocalizedNames>
-      <LocalizedName description="HelpTextPCF" languagecode="1033" />
+      <LocalizedName description="CR-030-Components" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.0.19</Version>
+    <Version>1.0.4</Version>
     <Managed>0</Managed>
     <Publisher>
-      <UniqueName>Capgemini</UniqueName>
+      <UniqueName>ACAMS</UniqueName>
       <LocalizedNames>
-        <LocalizedName description="capgemini" languagecode="1033" />
+        <LocalizedName description="ACAMS" languagecode="1033" />
       </LocalizedNames>
-      <Descriptions>
-        <Description description="capgemini" languagecode="1033" />
-      </Descriptions>
+      <Descriptions />
       <EMailAddress xsi:nil="true">
       </EMailAddress>
       <SupportingWebsiteUrl xsi:nil="true">
       </SupportingWebsiteUrl>
-      <CustomizationPrefix>cap</CustomizationPrefix>
-      <CustomizationOptionValuePrefix>76794</CustomizationOptionValuePrefix>
+      <CustomizationPrefix>acams</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>89797</CustomizationOptionValuePrefix>
       <Addresses>
         <Address>
           <AddressNumber>1</AddressNumber>
@@ -127,9 +125,7 @@
         </Address>
       </Addresses>
     </Publisher>
-    <RootComponents>
-      <RootComponent type="66" schemaName="cap_Capgemini.HelpText" behavior="0" />
-    </RootComponents>
+    <RootComponents />
     <MissingDependencies />
   </SolutionManifest>
 </ImportExportXml>
