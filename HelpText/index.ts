@@ -54,12 +54,12 @@ export class HelpText implements ComponentFramework.StandardControl<IInputs, IOu
         // Add event listeners to the form fields to register the selection
         // Only generated form field container divs have this tag
         const formFields = document.querySelectorAll(`div[data-control-name]:not([data-control-name*="helptext"]`);
-        // Unfortunately out PCF is in a generated field, so we have to make sue it doesn't grab that
+        // Unfortunately our PCF is in a generated field, so we have to make sue it doesn't grab that
 
         // Create custome event that will be registered by PCF's event listener
         formFields.forEach(
             (div) => {
-                div.addEventListener("click", () => {
+                div.addEventListener("mouseup", () => {
                     const event = new CustomEvent("onSelectField", {
                         detail: {
                             Field: div.getAttribute("data-control-name")

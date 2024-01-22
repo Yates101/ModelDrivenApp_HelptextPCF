@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest>
-  <control namespace="Capgemini" constructor="HelpText" version="0.0.30" display-name-key="HelpText" description-key="Helptext displayer on selection of field in a m-d-a form" control-type="standard">
+  <control namespace="Capgemini" constructor="HelpText" version="0.0.32" display-name-key="HelpText" description-key="Helptext displayer on selection of field in a m-d-a form" control-type="standard">
     <external-service-usage enabled="false" />
-    <property name="HelpText" display-name-key="HelpText" description-key="The field created on the object table to bind the PCF to - leave blank" of-type-group="strings" usage="bound" required="true" />
-    <property name="PlaceHolderHeader" display-name-key="Place Holder Headerr" description-key="Header to be displayed before a field is selected" of-type-group="strings" usage="input" required="false" />
+    <property name="HelpText" display-name-key="HelpText" description-key="The Help Text field created on the object Help Text table to bind the PCF to - leave blank" of-type-group="strings" usage="bound" required="true" />
+    <property name="PlaceHolderHeader" display-name-key="Place Holder Header" description-key="Header to be displayed before a field is selected" of-type-group="strings" usage="input" required="false" />
     <property name="PlaceHolderText" display-name-key="Place Holder Text" description-key="Placeholder to be displayed in place of help text" of-type-group="strings" usage="input" required="false" />
     <property name="PublisherPrefix" display-name-key="Publisher Prefix" description-key="Publisher prefix for the solution containing the form and helptext entities" of-type-group="strings" usage="input" required="true" />
     <type-group name="strings">
